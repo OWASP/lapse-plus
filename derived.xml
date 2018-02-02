@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<derivations>
+	<derivation id="java.lang.String.String(String)">
+	   <type>java.lang.String</type>
+	   <method>String</method>
+	</derivation>
+	<derivation id="java.lang.StringBuffer.StringBuffer(String)">
+	   <type>java.lang.StringBuffer</type>
+	   <method>StringBuffer</method>
+	</derivation>
+	<derivation id="java.lang.Object.toString()">
+	   <type>java.lang.Object</type>
+	   <method>toString</method>
+	</derivation>
+	<derivation id="java.lang.String.substring(int,int)">
+	   <type>java.lang.String</type>
+	   <method>substring</method>
+	</derivation>
+	<derivation id="java.lang.String.substring(int)">
+	   <type>java.lang.String</type>
+	   <method>substring</method>
+	</derivation>	
+</derivations>

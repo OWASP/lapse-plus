@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<safes>
+	<safe id="javax.servlet.http.HttpServletRequest.getContextPath()">
+	   <type>javax.servlet.http.HttpServletRequest</type>
+	   <method>getContextPath</method>
+	   <paramCount>0</paramCount>
+	   <category>SQL</category>
+	</safe>
+	
+	<safe id="java.lang.System.getProperty(String)">
+		<type>java.lang.System.getProperty</type>
+		<method>getProperty</method>
+	   <paramCount>1</paramCount>
+	   <category>SQL</category>		
+	</safe>
+
+	<safe id="java.util.Properties(String)">
+		<type>java.util.Properties</type>
+		<method>getProperty</method>
+	   <paramCount>1</paramCount>
+	   <category>SQL</category>		
+	</safe>	
+</safes>

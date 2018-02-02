@@ -1,0 +1,24 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: LAPSE+ finds security vulnerabilities in Java EE Applications
+Bundle-SymbolicName: LapsePlus;singleton:=true
+Bundle-Version: 2.8.1
+Bundle-ClassPath: lapse.jar
+Bundle-Activator: lapsePlus.LapsePlugin
+Bundle-Vendor: Pablo Martin Perez - EVALUES - IT Security Evaluation
+Export-Package: .,
+ lapsePlus,
+ lapsePlus.views
+Require-Bundle: org.eclipse.core.runtime,
+ org.eclipse.jface.text,
+ org.eclipse.ui.workbench.texteditor,
+ org.eclipse.ui.editors,
+ org.eclipse.core.resources,
+ org.eclipse.jdt.core,
+ org.eclipse.jdt.ui,
+ org.eclipse.swt,
+ org.eclipse.jface,
+ org.eclipse.ui,
+ org.eclipse.ui.ide
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6

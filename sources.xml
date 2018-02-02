@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sources>
+
+	<!-- Parameter Tampering-->
+	<source id="javax.servlet.ServletRequest.getParameter(String)">
+		<category>Parameter Tampering</category>
+	</source>
+
+	<source id="javax.servlet.ServletRequest.getParameterValues(String)">
+		<category>Parameter Tampering</category>
+	</source>
+
+	<source id="javax.servlet.ServletRequest.getParameterMap()">
+		<category>Parameter Tampering</category>
+	</source>
+
+	<source id="javax.servlet.ServletRequest.getParameterNames()">
+		<category>Parameter Tampering</category>
+	</source>
+
+	<source id="javax.servlet.http.HttpServletRequest.getRequestedSessionId()">
+		<category>Parameter Tampering</category>
+	</source>
+
+	<source id="javax.servlet.http.HttpServletRequest.getQueryString()">
+		<category>Parameter Tampering</category>
+	</source>
+
+	<source id="javax.servlet.http.HttpServletRequest.getRemoteUser()">
+		<category>Parameter Tampering</category>
+	</source>
+
+	<source id="javax.servlet.http.HttpServletRequest.getCookies()">
+		<category>Parameter Tampering</category>
+	</source>
+
+	<!-- Header Manipulation -->
+	<source id="javax.servlet.ServletRequest.getScheme()">
+		<category>Header Manipulation</category>
+	</source>
+
+	<source id="javax.servlet.ServletRequest.getProtocol()">
+		<category>Header Manipulation</category>
+	</source>
+
+	<source id="javax.servlet.ServletRequest.getContentType()">
+		<category>Header Manipulation</category>
+	</source>
+
+	<source id="javax.servlet.ServletRequest.getServerName()">
+		<category>Header Manipulation</category>
+	</source>
+
+	<source id="javax.servlet.ServletRequest.getRemoteAddr()">
+		<category>Header Manipulation</category>
+	</source>
+
+	<source id="javax.servlet.ServletRequest.getRemoteHost()">
+		<category>Header Manipulation</category>
+	</source>
+
+	<source id="javax.servlet.ServletRequest.getRealPath()">
+		<category>Header Manipulation</category>
+	</source>
+
+	<source id="javax.servlet.ServletRequest.getLocalName()">
+		<category>Header Manipulation</category>
+	</source>
+
+	<source id="javax.servlet.ServletRequest.getLocalAddr()">
+		<category>Header Manipulation</category>
+	</source>
+
+	<source id="javax.servlet.ServletRequest.getAuthType()">
+		<category>Header Manipulation</category>
+	</source>
+
+	<source id="javax.servlet.ServletRequest.getRequestURI()">
+		<category>Header Manipulation</category>
+	</source>
+	
+	<source id="javax.servlet.ServletRequest.getRequestDispatcher(String)">
+		<category>Header Manipulation</category>
+	</source>
+	
+	<source id="javax.servlet.http.HttpServletRequest.getMethod()">
+		<category>Header Manipulation</category>
+	</source>
+	
+	<source id="javax.servlet.http.HttpServletRequest.getContentType()">
+		<category>Header Manipulation</category>
+	</source>
+	
+	<source id="javax.servlet.http.HttpServletRequest.getContentLength()">
+		<category>Header Manipulation</category>
+	</source>
+	
+	<source id="javax.servlet.http.HttpServletRequest.getRemoteUser()">
+		<category>Header Manipulation</category>
+	</source>
+	
+	<source id="javax.servlet.http.HttpServletRequest.getQueryString()">
+		<category>Header Manipulation</category>
+	</source>
+
+	<source id="javax.servlet.http.HttpServletRequest.getPathInfo()">
+		<category>Header Manipulation</category>
+	</source>
+
+	<source id="javax.servlet.http.HttpServletRequest.getHeader()">
+		<category>Header Manipulation</category>
+	</source>
+
+	<source id="javax.servlet.http.HttpServletRequest.getHeaders()">
+		<category>Header Manipulation</category>
+	</source>
+
+	<!-- URL Tampering -->
+	<source id="javax.servlet.http.HttpServletRequest.getRequestURL()">
+		<category>URL Tampering</category>
+	</source>
+
+	<source id="javax.servlet.http.HttpServletRequest.getRequestURI()">
+		<category>URL Tampering</category>
+	</source>
+
+	<!-- Cookie Poisoning -->
+	<source id="javax.servlet.http.Cookie.getValue()">
+		<category>Cookie Poisoning</category>
+	</source>
+
+	<source id="javax.servlet.http.Cookie.getPath()">
+		<category>Cookie Poisoning</category>
+	</source>
+
+	<source id="javax.servlet.http.Cookie.getComment()">
+		<category>Cookie Poisoning</category>
+	</source>
+
+	<source id="javax.servlet.http.Cookie.getDomain()">
+		<category>Cookie Poisoning</category>
+	</source>
+
+	<source id="javax.servlet.http.Cookie.getName()">
+		<category>Cookie Poisoning</category>
+	</source>
+
+	<!-- Information Leakage -->
+
+	<source id="java.sql.ResultSet.getString(int)">
+		<category>Information Leakage</category>
+	</source>
+
+	<source id="java.sql.ResultSet.getString(String)">
+		<category>Information Leakage</category>
+	</source>
+
+	<source id="java.sql.ResultSet.getObject(int)">
+		<category>Information Leakage</category>
+	</source>
+
+	<source id="java.sql.ResultSet.getObject(String)">
+		<category>Information Leakage</category>
+	</source>
+
+</sources>
